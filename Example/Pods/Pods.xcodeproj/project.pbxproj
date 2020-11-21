@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FE6F533CB764CC86876E9299D52240E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		31C981928373016CFEDB719D4CD28422 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		782F0B6F4135B03A636202DD01738819 /* Pods-VPNUIKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B5432A7167C99EEB1BC3EAF784083FD /* Pods-VPNUIKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		879E3C32E9DB12EFDA60B907A39BB37F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A0BC2FC549942FE1583F85A922F08B70 /* Pods-VPNUIKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F4A587AA8BA97A6EEF12FAA0267C25 /* Pods-VPNUIKit_Tests-dummy.m */; };
+		A353DD3EDB3FFFF38A1535E3A8D7DE17 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CCCC089037BB770D0F8679E40FA073 /* ReplaceMe.swift */; };
+		B3709EBF729496A435BFEA88FB809575 /* VPNUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6A5D02F69B2BB2A4FC6C0C89EB1541 /* VPNUIKit-dummy.m */; };
+		CF82F57BC0FBCEDF6B3845AE5678E8AE /* VPNUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD3F7215B7689536C3677AAD088DE4D0 /* VPNUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D013E8865C034565C70ACF0793513515 /* Pods-VPNUIKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3D3CE424B188D64C505F697CF4C3C1 /* Pods-VPNUIKit_Example-dummy.m */; };
+		DB41DB98D6FAE26EB7A80AD7E82DA4F6 /* Pods-VPNUIKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE609BB0D39A7A947308290E0DF19581 /* Pods-VPNUIKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52A5648F8A4B45837104676ED0FFDB3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B76B5DEADC2C5889FB72AF9B47853F3;
+			remoteInfo = VPNUIKit;
+		};
+		FE0244ED489080F7BD67F2BDD6AAD7B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D494CDE0899C0B966287E5E528C2A7FE;
+			remoteInfo = "Pods-VPNUIKit_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		163E54C97E9E7692D155E77358A0833A /* VPNUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VPNUIKit.modulemap; sourceTree = "<group>"; };
+		1A3D3CE424B188D64C505F697CF4C3C1 /* Pods-VPNUIKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VPNUIKit_Example-dummy.m"; sourceTree = "<group>"; };
+		1A609E33018431F7D3F6D0698B66F422 /* VPNUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VPNUIKit-prefix.pch"; sourceTree = "<group>"; };
+		1E703254757D82E7D0A31514B0EE4FC1 /* Pods-VPNUIKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VPNUIKit_Example-Info.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3FE48B6B91598DFFD6D3F42CC49B3027 /* Pods-VPNUIKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VPNUIKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5516578820670934F0EC085146A500D7 /* Pods-VPNUIKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VPNUIKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		5AE8194F569BC40F56AE58317699C773 /* Pods_VPNUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VPNUIKit_Example.framework; path = "Pods-VPNUIKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62D7241069B2B1C4BF9660D1F4AB88EB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6B5432A7167C99EEB1BC3EAF784083FD /* Pods-VPNUIKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VPNUIKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		727FBE61FB03A4D881C7BBD436C4DCCD /* Pods-VPNUIKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VPNUIKit_Example.modulemap"; sourceTree = "<group>"; };
+		74670EA9AC0EC46A6177C243A579004B /* Pods-VPNUIKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VPNUIKit_Tests.modulemap"; sourceTree = "<group>"; };
+		909FA68716421FAC786159A6279651B2 /* Pods-VPNUIKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VPNUIKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		94F4A587AA8BA97A6EEF12FAA0267C25 /* Pods-VPNUIKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VPNUIKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		9ADAD3DA352702157994844B6DCFDB1F /* Pods-VPNUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VPNUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9CCCC089037BB770D0F8679E40FA073 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = VPNUIKit/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		AD3F7215B7689536C3677AAD088DE4D0 /* VPNUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VPNUIKit-umbrella.h"; sourceTree = "<group>"; };
+		AEF157DE394051894C15980C1542F9B1 /* Pods-VPNUIKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VPNUIKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B07991AAED624FDFDF87F9759FF6EB46 /* VPNUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VPNUIKit.framework; path = VPNUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B26CF53512A3C9EE1D4C3277DFF22222 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B38FEA64540C26303FEDD338BD7811D6 /* Pods_VPNUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VPNUIKit_Tests.framework; path = "Pods-VPNUIKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE776B9B5DC6CD1D1C7C852E54E72E1B /* Pods-VPNUIKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VPNUIKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C1774CE979E835648FEC7E72E1650272 /* Pods-VPNUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VPNUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D07F86F07816FE207CBEEDDAB15F75A7 /* VPNUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = VPNUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DA1F4F38C4F818744B53D22F08675316 /* Pods-VPNUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VPNUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DF6A5D02F69B2BB2A4FC6C0C89EB1541 /* VPNUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VPNUIKit-dummy.m"; sourceTree = "<group>"; };
+		E49EE1DE7B53027F51B8F26A35B87FD4 /* Pods-VPNUIKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VPNUIKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E529AD513F7DF18B4A049BB290EFA704 /* VPNUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VPNUIKit.release.xcconfig; sourceTree = "<group>"; };
+		EBEC04D94EB3C4470B0284BFA07A40C8 /* Pods-VPNUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VPNUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EDF2E52034D1947953A96B1D0795F4FC /* VPNUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VPNUIKit.debug.xcconfig; sourceTree = "<group>"; };
+		EE609BB0D39A7A947308290E0DF19581 /* Pods-VPNUIKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VPNUIKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		FBF359856B9042661B7E4D643AAFBB15 /* VPNUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VPNUIKit-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D83880B1743D4BFC3EDA02FAD1DE58C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879E3C32E9DB12EFDA60B907A39BB37F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E82E9B876FAE79CC14D3123B4BCC263 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FE6F533CB764CC86876E9299D52240E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD92134D517DD59C9BC290774BD820E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C981928373016CFEDB719D4CD28422 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A876363B72C1133EA32F87D71CDF959 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E431329B0FFEEAE3ADC41AB4DEE844C /* VPNUIKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1E431329B0FFEEAE3ADC41AB4DEE844C /* VPNUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				A9CCCC089037BB770D0F8679E40FA073 /* ReplaceMe.swift */,
+				6DF4C31279744E9E1698BAA02BD0EDD7 /* Pod */,
+				3E41EEBE4829F7298B68934BD71D8569 /* Support Files */,
+			);
+			name = VPNUIKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1EBCAF4646E2BCEEA23C402F97C62917 /* Pods-VPNUIKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				74670EA9AC0EC46A6177C243A579004B /* Pods-VPNUIKit_Tests.modulemap */,
+				E49EE1DE7B53027F51B8F26A35B87FD4 /* Pods-VPNUIKit_Tests-acknowledgements.markdown */,
+				BE776B9B5DC6CD1D1C7C852E54E72E1B /* Pods-VPNUIKit_Tests-acknowledgements.plist */,
+				94F4A587AA8BA97A6EEF12FAA0267C25 /* Pods-VPNUIKit_Tests-dummy.m */,
+				5516578820670934F0EC085146A500D7 /* Pods-VPNUIKit_Tests-Info.plist */,
+				6B5432A7167C99EEB1BC3EAF784083FD /* Pods-VPNUIKit_Tests-umbrella.h */,
+				EBEC04D94EB3C4470B0284BFA07A40C8 /* Pods-VPNUIKit_Tests.debug.xcconfig */,
+				C1774CE979E835648FEC7E72E1650272 /* Pods-VPNUIKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-VPNUIKit_Tests";
+			path = "Target Support Files/Pods-VPNUIKit_Tests";
+			sourceTree = "<group>";
+		};
+		3E41EEBE4829F7298B68934BD71D8569 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				163E54C97E9E7692D155E77358A0833A /* VPNUIKit.modulemap */,
+				DF6A5D02F69B2BB2A4FC6C0C89EB1541 /* VPNUIKit-dummy.m */,
+				FBF359856B9042661B7E4D643AAFBB15 /* VPNUIKit-Info.plist */,
+				1A609E33018431F7D3F6D0698B66F422 /* VPNUIKit-prefix.pch */,
+				AD3F7215B7689536C3677AAD088DE4D0 /* VPNUIKit-umbrella.h */,
+				EDF2E52034D1947953A96B1D0795F4FC /* VPNUIKit.debug.xcconfig */,
+				E529AD513F7DF18B4A049BB290EFA704 /* VPNUIKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VPNUIKit";
+			sourceTree = "<group>";
+		};
+		6DF4C31279744E9E1698BAA02BD0EDD7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B26CF53512A3C9EE1D4C3277DFF22222 /* LICENSE */,
+				62D7241069B2B1C4BF9660D1F4AB88EB /* README.md */,
+				D07F86F07816FE207CBEEDDAB15F75A7 /* VPNUIKit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		94D4BD3D31F94A7C48FB6ABC6CF13DE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AE8194F569BC40F56AE58317699C773 /* Pods_VPNUIKit_Example.framework */,
+				B38FEA64540C26303FEDD338BD7811D6 /* Pods_VPNUIKit_Tests.framework */,
+				B07991AAED624FDFDF87F9759FF6EB46 /* VPNUIKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3AB72A6A58AFED300A90EAFBA35875F /* Pods-VPNUIKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				727FBE61FB03A4D881C7BBD436C4DCCD /* Pods-VPNUIKit_Example.modulemap */,
+				909FA68716421FAC786159A6279651B2 /* Pods-VPNUIKit_Example-acknowledgements.markdown */,
+				AEF157DE394051894C15980C1542F9B1 /* Pods-VPNUIKit_Example-acknowledgements.plist */,
+				1A3D3CE424B188D64C505F697CF4C3C1 /* Pods-VPNUIKit_Example-dummy.m */,
+				3FE48B6B91598DFFD6D3F42CC49B3027 /* Pods-VPNUIKit_Example-frameworks.sh */,
+				1E703254757D82E7D0A31514B0EE4FC1 /* Pods-VPNUIKit_Example-Info.plist */,
+				EE609BB0D39A7A947308290E0DF19581 /* Pods-VPNUIKit_Example-umbrella.h */,
+				9ADAD3DA352702157994844B6DCFDB1F /* Pods-VPNUIKit_Example.debug.xcconfig */,
+				DA1F4F38C4F818744B53D22F08675316 /* Pods-VPNUIKit_Example.release.xcconfig */,
+			);
+			name = "Pods-VPNUIKit_Example";
+			path = "Target Support Files/Pods-VPNUIKit_Example";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1A876363B72C1133EA32F87D71CDF959 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				94D4BD3D31F94A7C48FB6ABC6CF13DE8 /* Products */,
+				E2BF0A556929EB38BBC2D04E43064217 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2BF0A556929EB38BBC2D04E43064217 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3AB72A6A58AFED300A90EAFBA35875F /* Pods-VPNUIKit_Example */,
+				1EBCAF4646E2BCEEA23C402F97C62917 /* Pods-VPNUIKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		882D3F03EFD408177B82DDEFD9ECACDB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB41DB98D6FAE26EB7A80AD7E82DA4F6 /* Pods-VPNUIKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ECC64109AF956ACFD1450A6FCF3A3CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782F0B6F4135B03A636202DD01738819 /* Pods-VPNUIKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF998DDE200B6496EF92B637FBB39A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF82F57BC0FBCEDF6B3845AE5678E8AE /* VPNUIKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		63A0DE547FDB79E773DF7078FBAD3746 /* Pods-VPNUIKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53CC3E36CC773717B9B6F133F54D47E7 /* Build configuration list for PBXNativeTarget "Pods-VPNUIKit_Tests" */;
+			buildPhases = (
+				8ECC64109AF956ACFD1450A6FCF3A3CA /* Headers */,
+				F3D18140527094168D283581ABDECA54 /* Sources */,
+				EFD92134D517DD59C9BC290774BD820E /* Frameworks */,
+				C3F5ACEF321ADB6345F8EA2ABBD92919 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3606EBAFFE36F75DA6C8B08A5C5BBBF /* PBXTargetDependency */,
+			);
+			name = "Pods-VPNUIKit_Tests";
+			productName = "Pods-VPNUIKit_Tests";
+			productReference = B38FEA64540C26303FEDD338BD7811D6 /* Pods_VPNUIKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6B76B5DEADC2C5889FB72AF9B47853F3 /* VPNUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F3B10567251F75450E8CCE4865608D8 /* Build configuration list for PBXNativeTarget "VPNUIKit" */;
+			buildPhases = (
+				CAF998DDE200B6496EF92B637FBB39A0 /* Headers */,
+				962C20FDB991CA51712B6EB4D24E09B1 /* Sources */,
+				1D83880B1743D4BFC3EDA02FAD1DE58C /* Frameworks */,
+				7309FC99D670F1B5FCFAB7B3F75EC079 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VPNUIKit;
+			productName = VPNUIKit;
+			productReference = B07991AAED624FDFDF87F9759FF6EB46 /* VPNUIKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D494CDE0899C0B966287E5E528C2A7FE /* Pods-VPNUIKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDEFD4265FA5AB6B7E0CE79115D47185 /* Build configuration list for PBXNativeTarget "Pods-VPNUIKit_Example" */;
+			buildPhases = (
+				882D3F03EFD408177B82DDEFD9ECACDB /* Headers */,
+				9AB341A26DC65AA06097F48E142D0971 /* Sources */,
+				7E82E9B876FAE79CC14D3123B4BCC263 /* Frameworks */,
+				41994EB9B0049D9C8830B794D168A735 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97291E14CA865793A9B49E7704FDF60A /* PBXTargetDependency */,
+			);
+			name = "Pods-VPNUIKit_Example";
+			productName = "Pods-VPNUIKit_Example";
+			productReference = 5AE8194F569BC40F56AE58317699C773 /* Pods_VPNUIKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 94D4BD3D31F94A7C48FB6ABC6CF13DE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D494CDE0899C0B966287E5E528C2A7FE /* Pods-VPNUIKit_Example */,
+				63A0DE547FDB79E773DF7078FBAD3746 /* Pods-VPNUIKit_Tests */,
+				6B76B5DEADC2C5889FB72AF9B47853F3 /* VPNUIKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41994EB9B0049D9C8830B794D168A735 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7309FC99D670F1B5FCFAB7B3F75EC079 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3F5ACEF321ADB6345F8EA2ABBD92919 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		962C20FDB991CA51712B6EB4D24E09B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A353DD3EDB3FFFF38A1535E3A8D7DE17 /* ReplaceMe.swift in Sources */,
+				B3709EBF729496A435BFEA88FB809575 /* VPNUIKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AB341A26DC65AA06097F48E142D0971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D013E8865C034565C70ACF0793513515 /* Pods-VPNUIKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3D18140527094168D283581ABDECA54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0BC2FC549942FE1583F85A922F08B70 /* Pods-VPNUIKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97291E14CA865793A9B49E7704FDF60A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VPNUIKit;
+			target = 6B76B5DEADC2C5889FB72AF9B47853F3 /* VPNUIKit */;
+			targetProxy = 52A5648F8A4B45837104676ED0FFDB3E /* PBXContainerItemProxy */;
+		};
+		E3606EBAFFE36F75DA6C8B08A5C5BBBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-VPNUIKit_Example";
+			target = D494CDE0899C0B966287E5E528C2A7FE /* Pods-VPNUIKit_Example */;
+			targetProxy = FE0244ED489080F7BD67F2BDD6AAD7B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00819B9E030AF785AF5DAA4644D49C41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBEC04D94EB3C4470B0284BFA07A40C8 /* Pods-VPNUIKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VPNUIKit_Tests/Pods-VPNUIKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VPNUIKit_Tests/Pods-VPNUIKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		03D27AA381154A7C91FBEDAD27D15185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDF2E52034D1947953A96B1D0795F4FC /* VPNUIKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VPNUIKit/VPNUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VPNUIKit/VPNUIKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VPNUIKit/VPNUIKit.modulemap";
+				PRODUCT_MODULE_NAME = VPNUIKit;
+				PRODUCT_NAME = VPNUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		45AFE6F22EA2A098C38215B3801FAFFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA1F4F38C4F818744B53D22F08675316 /* Pods-VPNUIKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VPNUIKit_Example/Pods-VPNUIKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VPNUIKit_Example/Pods-VPNUIKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5F6988752BE3BFB48B1D95B40412D39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ADAD3DA352702157994844B6DCFDB1F /* Pods-VPNUIKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VPNUIKit_Example/Pods-VPNUIKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VPNUIKit_Example/Pods-VPNUIKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E1AA4077BF517590D26C26C40B5E943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1774CE979E835648FEC7E72E1650272 /* Pods-VPNUIKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VPNUIKit_Tests/Pods-VPNUIKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VPNUIKit_Tests/Pods-VPNUIKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C16E9B3C94831F31C027945F390532BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E529AD513F7DF18B4A049BB290EFA704 /* VPNUIKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VPNUIKit/VPNUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VPNUIKit/VPNUIKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VPNUIKit/VPNUIKit.modulemap";
+				PRODUCT_MODULE_NAME = VPNUIKit;
+				PRODUCT_NAME = VPNUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F3B10567251F75450E8CCE4865608D8 /* Build configuration list for PBXNativeTarget "VPNUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D27AA381154A7C91FBEDAD27D15185 /* Debug */,
+				C16E9B3C94831F31C027945F390532BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53CC3E36CC773717B9B6F133F54D47E7 /* Build configuration list for PBXNativeTarget "Pods-VPNUIKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00819B9E030AF785AF5DAA4644D49C41 /* Debug */,
+				9E1AA4077BF517590D26C26C40B5E943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDEFD4265FA5AB6B7E0CE79115D47185 /* Build configuration list for PBXNativeTarget "Pods-VPNUIKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F6988752BE3BFB48B1D95B40412D39A /* Debug */,
+				45AFE6F22EA2A098C38215B3801FAFFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

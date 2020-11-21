@@ -1,0 +1,6 @@
+framework module VPNUIKit {
+  umbrella header "VPNUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
