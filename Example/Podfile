@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'VPNUIKit_Example' do
+  pod 'VPNUIKit', :path => '../'
+
+  target 'VPNUIKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
